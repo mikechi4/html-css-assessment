@@ -1,0 +1,70 @@
+html {
+  background: url('/img/main-bg.jpeg') no-repeat center;
+}
+
+body{
+  width: 70%;
+text-align: center;
+  height: 100vh;
+  margin: 0 auto;
+  font-family: 'Kanit', sans-serif;
+  margin-top:20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+nav{
+
+  margin-bottom: 150px;
+  letter-spacing: 2px;
+}
+
+.desktop-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.content {
+  margin: 0 auto;
+}
+.main-container {
+  text-align: center;
+  color: white;
+  letter-spacing: 2px;
+  margin-bottom: 200px;
+}
+
+.main-container h1{
+  font-size: 3em;
+}
+
+.circle-border {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 2%;
+}
+
+.arrow-down{
+  background: white;
+  color: grey;
+}
+
+@media screen and (min-width: 640px) {
+  .expand {
+    display: none;
+
+  }
+
+}
+
+@media screen and (max-width: 640px){
+  .collapse {
+    display: none;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+  }
+}
